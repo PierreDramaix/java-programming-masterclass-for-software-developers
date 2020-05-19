@@ -63,5 +63,35 @@ public class Main {
         test = DecimalComparator.areEqualByThreeDecimalPlaces(-3.123, 3.123);
         System.out.println(test);*/
 
+        /*EqualSumChecker*/
+
+/*        boolean test = EqualSumChecker.hasEqualSum(1,1,1);
+        System.out.println(test);
+
+        test = EqualSumChecker.hasEqualSum(1,1,2);
+        System.out.println(test);
+
+        test = EqualSumChecker.hasEqualSum(1,-1,0);
+        System.out.println(test);*/
+
+        /*TeenNumberChecker*/
+
+        boolean test = TeenNumberChecker.hasTeen(9,99,19);
+        System.out.println(test);
+
+        test = TeenNumberChecker.hasTeen(23,15,42);
+        System.out.println(test);
+
+        test = TeenNumberChecker.hasTeen(23,23,34);
+        System.out.println(test);
+
+        test = TeenNumberChecker.isTeen(9);
+        System.out.println(test);
+
+        test = TeenNumberChecker.isTeen(13);
+        System.out.println(test);
+
+
+
     }
 }
