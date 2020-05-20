@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00e3db07-0fe4-41f8-8035-e9035fa094f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/out/production/MethodOverloading/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/out/production/MethodOverloading/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1cAR2Tm9z71b9XzfCfKp524RMvE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.1664393" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Pierre Dramaix\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00e3db07-0fe4-41f8-8035-e9035fa094f5" name="Default Changelist" comment="" />
+      <created>1589969203343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589969203343</updated>
+    </task>
+    <servers />
+  </component>
+</project>

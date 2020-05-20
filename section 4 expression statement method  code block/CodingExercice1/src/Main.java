@@ -76,6 +76,7 @@ public class Main {
 
         /*TeenNumberChecker*/
 
+/*
         boolean test = TeenNumberChecker.hasTeen(9,99,19);
         System.out.println(test);
 
@@ -90,6 +91,38 @@ public class Main {
 
         test = TeenNumberChecker.isTeen(13);
         System.out.println(test);
+*/
+
+        /*AreaCalculator*/
+
+/*
+        System.out.println(AreaCalculator.area(5.0));
+        System.out.println(AreaCalculator.area(-1));
+        System.out.println(AreaCalculator.area(5.0, 4.0));
+        System.out.println(AreaCalculator.area(-1.0, 4.0));
+*/
+
+        /*MinutesToYearsDaysCalculator*/
+
+/*
+        MinutesToYearsDaysCalculator.printYearsAndDays(525600);
+        MinutesToYearsDaysCalculator.printYearsAndDays(1051200);
+        MinutesToYearsDaysCalculator.printYearsAndDays(561600);
+*/
+
+        /*IntEqualityPrinter*/
+
+/*        IntEqualityPrinter.printEqual(1,1,1);
+        IntEqualityPrinter.printEqual(1,1,2);
+        IntEqualityPrinter.printEqual(-1,-1,-1);
+        IntEqualityPrinter.printEqual(1,2,3);
+*/
+        /*PlayingCat*/
+
+        System.out.println(PlayingCat.isCatPlaying(true, 10));
+        System.out.println(PlayingCat.isCatPlaying(false, 36));
+        System.out.println(PlayingCat.isCatPlaying(false, 35));
+
 
 
 
