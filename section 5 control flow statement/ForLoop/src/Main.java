@@ -29,6 +29,63 @@ public class Main {
         }
 
         System.out.println("***********");
+
+        System.out.println(isPrime(17));
+        System.out.println(isPrime(8));
+
+
+
+        forChallenge();
+
+        System.out.println("***********");
+
+        int sum = 0;
+        int numberfound = 0;
+
+        for (int i = 1; i <= 1_000; i++){
+            if (i % 3 == 0 && i % 5 == 0){
+                sum += i;
+                numberfound++;
+                System.out.println("Found number " + i);
+            }
+            if (numberfound == 5){
+                System.out.println(sum);
+                break;
+            }
+        }
+        
+    }
+
+    public static boolean isPrime(int n){
+        if(n == 1){
+            return false;
+        }
+
+        for( int i=2; i <= n/2; i++){
+            if(n % i == 0){
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static void forChallenge(){
+
+        int numberOfPrime = 0;
+
+        for (int i = 10; i < 50; i++){
+            if(isPrime(i)){
+                numberOfPrime++;
+                System.out.println(i + " is a prime number");
+
+                if (numberOfPrime == 10){
+                    break;
+                }
+            }
+        }
+        System.out.println("I stopped at 10 prime number found as requested");
+
     }
 
     public static double calculateInterest(double amount, double interestRate){
