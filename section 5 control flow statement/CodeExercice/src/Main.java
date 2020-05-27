@@ -44,5 +44,78 @@ public class Main {
 
         System.out.println("***************");
 
+        /*FirstLastDigitSum*/
+
+        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(252));
+        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(257));
+        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(0));
+        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(5));
+        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(-10));
+
+        System.out.println("***************");
+
+        /*EvenDigitSum*/
+
+        System.out.println(EvenDigitSum.getEvenDigitSum(123456789));
+        System.out.println(EvenDigitSum.getEvenDigitSum(252));
+        System.out.println(EvenDigitSum.getEvenDigitSum(-22));
+
+        System.out.println("***************");
+
+        /*SharedDigit*/
+
+        System.out.println(SharedDigit.hasSharedDigit(12,23));
+        System.out.println(SharedDigit.hasSharedDigit(9,99));
+        System.out.println(SharedDigit.hasSharedDigit(15,55));
+
+        System.out.println("***************");
+
+        /*LastDigitChecker*/
+
+        System.out.println(LastDigitChecker.hasSameLastDigit(41,22,71));
+        System.out.println(LastDigitChecker.hasSameLastDigit(23,32,42));
+        System.out.println(LastDigitChecker.hasSameLastDigit(9,99,999));
+
+        System.out.println("***************");
+
+        System.out.println(LastDigitChecker.isValid(10));
+        System.out.println(LastDigitChecker.isValid(468));
+        System.out.println(LastDigitChecker.isValid(1051));
+
+        System.out.println("***************");
+
+        /*GreatestCommonDivisor*/
+
+        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(25,15));
+        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(12,30));
+        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(9,18));
+        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(81,153));
+
+        System.out.println("***************");
+
+        /*FactorPrinter*/
+
+        FactorPrinter.printFactors(6);
+        FactorPrinter.printFactors(32);
+        FactorPrinter.printFactors(10);
+        FactorPrinter.printFactors(-1);
+
+        System.out.println("***************");
+
+        /*PerfectNumber*/
+
+        System.out.println(PerfectNumber.isPerfectNumber(6));
+        System.out.println(PerfectNumber.isPerfectNumber(28));
+        System.out.println(PerfectNumber.isPerfectNumber(5));
+        System.out.println(PerfectNumber.isPerfectNumber(-1));
+
+        System.out.println("***************");
+
+        /*NumberToWords*/
+
+        System.out.println(NumberToWords.getDigitCount(0));
+        System.out.println(NumberToWords.getDigitCount(123));
+        System.out.println(NumberToWords.getDigitCount(-12));
+        System.out.println(NumberToWords.getDigitCount(5200));
     }
 }
