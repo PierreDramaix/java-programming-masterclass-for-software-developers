@@ -152,6 +152,17 @@ public class Main {
         System.out.println(LargestPrime.getLargestPrime(217));
         System.out.println(LargestPrime.getLargestPrime(0));
         System.out.println(LargestPrime.getLargestPrime(45));
+        System.out.println(LargestPrime.getLargestPrime(7));
+
+        System.out.println("***************");
+
+        /*DiagonalStar*/
+
+        DiagonalStar.printSquareStar(5);
+        DiagonalStar.printSquareStar(8);
+        DiagonalStar.printSquareStar(2);
+
+        System.out.println("***************");
 
     }
 }
