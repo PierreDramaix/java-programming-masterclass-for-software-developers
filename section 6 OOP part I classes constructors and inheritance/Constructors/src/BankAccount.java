@@ -6,6 +6,24 @@ public class BankAccount {
     private String email;
     private int phoneNumber;
 
+    /*constructors*/
+
+    public BankAccount(){
+        this(11111, 0,"blankname", "no email",12456);
+    }
+
+    public BankAccount(int accountNumber, int balance, String customerName, String email, int phoneNumber) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
+    public BankAccount(String customerName, String email, int phoneNumber){
+        this(2222,0,customerName,email,phoneNumber);
+    };
+
    /* getter and setter ON*/
 
     public void setAccountNumber(int number){
