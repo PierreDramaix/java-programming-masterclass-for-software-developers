@@ -17,6 +17,20 @@ public class Animal {
         this.weight = weight;
     }
 
+
+    /*others*/
+
+    public void eat(){
+        System.out.println("Animal.eat() called");
+    }
+
+    public void move(int speed){
+        System.out.println("animal.move() called");
+        System.out.println("animal is moving at " + speed);
+
+    }
+
+
     /*getter and setter*/
 
     public String getName() {
@@ -59,13 +73,5 @@ public class Animal {
         this.weight = weight;
     }
 
-    /*others*/
 
-    public void eat(){
-        System.out.println("Animal.eat() called");
-    }
-
-    public void move(){
-
-    }
 }
