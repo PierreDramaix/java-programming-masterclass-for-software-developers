@@ -79,17 +79,53 @@ public class Main {
 
         ComplexNumber one = new ComplexNumber(1.0,1.0);
         ComplexNumber number = new ComplexNumber(2.5,-1.5);
+
         one.add(1.0,1.0);
         System.out.println("one.real= " + one.getReal());
         System.out.println("one.imaginary= " + one.getImaginary());
+
         one.subtract(number);
         System.out.println("one.real= " + one.getReal());
         System.out.println("one.imaginary= " + one.getImaginary());
+
         number.subtract(one);
         System.out.println("number.real= " + number.getReal());
         System.out.println("number.imaginary= " + number.getImaginary());
 
         System.out.println("************");
+
+        /*circle and cylinder*/
+
+        Circle circle = new Circle(3.75);
+        System.out.println("circle radius = " + circle.getRadius());
+        System.out.println("circle area = " + circle.getArea());
+
+        Cylinder cylinder = new Cylinder(5.55,7.25);
+        System.out.println("cylinder radius = " + cylinder.getRadius());
+        System.out.println("cylinder height = " + cylinder.getHeight());
+        System.out.println("cylinder area = " + cylinder.getArea());
+        System.out.println("cylinder volum = " + cylinder.getVolume());
+
+        System.out.println("************");
+
+        /*Rectangle and cuboid*/
+
+        Rectangle rectangle = new Rectangle(5,10);
+        System.out.println("rectange width= " + rectangle.getWidth());
+        System.out.println("rectange length= " + rectangle.getLength());
+        System.out.println("rectange area= " + rectangle.getArea());
+
+        Cuboid cuboid = new Cuboid(5,10,5);
+        System.out.println("cuboid width = " + cuboid.getWidth());
+        System.out.println("cuboid length = " + cuboid.getLength());
+        System.out.println("cuboid area = " + cuboid.getArea());
+        System.out.println("cuboid height = " + cuboid.getHeight());
+        System.out.println("cuboid volume = " + cuboid.getVolume());
+
+        System.out.println("************");
+
+
+
 
     }
 }
