@@ -10,7 +10,16 @@ public class PC {
         this.motherboard = motherboard;
     }
 
-    public Case getTheCase() {
+     public void powerUp(){
+        theCase.pressPowerButton();
+        drawlogo();
+     }
+
+     private void drawlogo(){
+        monitor.drawPixelAt(1200,50,"yellow");
+     }
+
+/*    public Case getTheCase() {
         return theCase;
     }
 
@@ -20,7 +29,7 @@ public class PC {
 
     public Motherboard getMotherboard() {
         return motherboard;
-    }
+    }*/
 }
 
 
